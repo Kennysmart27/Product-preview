@@ -1,0 +1,92 @@
+*{  /*to remove the web default styling */
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(30, 38%, 92%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.container .box1 img {
+  width: 200px;
+  height: 500px;
+  border-top-left-radius:15px ;
+  border-bottom-left-radius:15px ;
+  max-width: 1440px;
+  min-width: 375px;
+}
+
+.container .box2 {
+    background-color: white;
+    width: 200px;
+    height: 500px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    max-width: 1440px;
+    min-width: 375px;
+}
+
+h3{
+    letter-spacing: 5px;
+    margin-top: 30px;
+    font-size: 15px;
+    color: grey;
+    margin-left: 30px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+}
+h4{
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 30px;
+    margin-right: 50px;
+    font-family:'Fraunces', cursive ;
+    line-height: 35px; /* done to control the spacing above the words */
+}
+p{
+    color: grey;
+    font-size: 17px;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 45px;
+    line-height: 1.7rem;
+    font-family: sans-serif;
+}
+h5{
+    margin-top: 25px;
+    margin-left: 30px;
+    margin-right: 45px;
+    font-size: 35px;
+    color: darkcyan;
+    font-family:'Pacifico', cursive, sans-serif;
+}
+sup{
+    font-size: 15px;
+    color: grey;
+    font-family:'Pacifico', cursive, sans-serif;
+    text-decoration: line-through;
+}
+button{
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 80%;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    background-color:darkcyan;
+    padding: 15px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px  solid darkcyan;
+}
+
+
